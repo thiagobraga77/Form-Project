@@ -5,48 +5,59 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     background-color: #f0ebf8;
 }
-h1, h2, h3, h4, h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #333;
 }
-p, label{
+
+p,
+label {
     color: #444;
 }
-input{
+
+input {
     border: none;
     border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
+
 input[type="text"],
 input[type="number"],
 input[type="date"],
-input[type="file"]{
+input[type="file"],
+textarea {
     width: 400px;
 }
 
+textarea {
+    padding: 10px 5px;
+}
+
 /* page header */
-.header{
+.header {
     height: 160px;
     padding: 20px;
     background-color: #673ab7;
 }
-.header h3{
+
+.header h3 {
     color: #fff;
     margin-top: 0;
 }
 
 /* form-container */
-.form-container{
+.form-container {
     background-color: #fdfdfd;
     width: 60%;
     margin: 0 auto;
     position: relative;
     top: -62px;
 }
-
-
-
-
-
